@@ -332,7 +332,7 @@ text("Score : "+ rScore,520,100)
 
 
 function spikeSpawn(){
-  spike  = createSprite(windowWidth+10,windowHeight/2 +250,20,10);
+  spike  = createSprite(windowWidth+10,windowHeight/2 +300,20,10);
   spike.velocityX = -8 ;
   spike.addImage("spikes",spikes);
   spike.scale =0.3
@@ -341,7 +341,7 @@ function spikeSpawn(){
 }
 
 function stoneSpawn(){
-  stones = createSprite(windowWidth+10,windowHeight/2 +250,20,10);
+  stones = createSprite(windowWidth+10,windowHeight/2 +300,20,10);
   stones.addImage("stone",stone)
   stones.velocityX = -10;
   StGroup.add(stones); 
